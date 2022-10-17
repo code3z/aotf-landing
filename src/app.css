@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.icon {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	font-size: inherit;
+	color: inherit;
+	vertical-align: -0.125em;
+}
+
+body {
+	background: black;
+	color: rgba(255, 255, 255, 0.719);
+}
+
+.underlined {
+	position: relative;
+	margin-right: 1rem;
+}
+.underlined:after {
+	content: '';
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	height: 7px;
+	width: 100%;
+	border: solid 2px white;
+	border-color: white transparent transparent transparent;
+	border-radius: 50%;
+}
