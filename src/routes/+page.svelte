@@ -1,5 +1,5 @@
 <script>
-	import TeamMember from 'src/components/team-member.svelte';
+	import TeamMember from '../../src/components/team-member.svelte';
 </script>
 
 <svelte:head>
@@ -12,7 +12,7 @@
 </h1>
 <p>
 	We run weekly events to support young people starting startups, in partnership with the <a
-		class="text-white hover:underline"
+		class="link"
 		href="https://1517fund.com">1517 Fund</a
 	>. Join us!
 </p>

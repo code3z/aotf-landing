@@ -31,3 +31,7 @@ body {
 	border-color: white transparent transparent transparent;
 	border-radius: 50%;
 }
+
+.link {
+	@apply text-white hover:underline;
+}
